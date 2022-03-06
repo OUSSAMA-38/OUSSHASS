@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  li, a, button {
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+  
+  
+  }
+  .menu{
+    list-style:none;
+    text-decoration: none;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+  }
+  
+  .menu li a:hover {
+    color: orange;
+  }  
+
+
+
+.logo {
+    width:75px;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.contact{
+    padding: 9px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 30px;
+    
+  }
+  .contact:hover{
+    background-color: orange;
+    color: white;
+  }
+
+  .line{
+    width:60px;
+    height: 3px;
+    background-color: orange;
+    margin-left: 220px;
+  }
+  
+  .hover-line::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: orange;
+    transition: width .3;
+    margin-top: 8px;}
+  .hover-line:hover::after{
+    width:100% ;
+    transition: width .3s;
+  }
+.text{
+  color: orange;
+  font-size: 50px;
+  margin-bottom: 300px;
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Quicksand', sans-serif; 
+  flex-direction: column;
+  text-decoration: underline orange;
+  
+}
+.text2{
+  color: orange;
+  font-size: 50px;
+  margin-top: 1150px;
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Quicksand', sans-serif; 
+  flex-direction: column;
+  text-decoration: underline orange;
+}
+

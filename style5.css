@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  .flex-auto {
+    flex:auto
+  }
+
+
+
+  .logo {
+    width:75px;
+    margin-right: auto;
+  }
+
+.menu{
+  list-style:none;
+  text-decoration: none;
+}
+.menu li {
+  display: inline-block;
+  padding: 0px 20px;
+  
+}
+
+.menu li a:hover {
+  color: orange;
+}  
+
+.hover-line::after{
+  content: '';
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: orange;
+  transition: width .3;
+  margin-top: 8px;
+}
+.hover-line:hover::after{
+  width:100% ;
+  transition: width .3s;
+}  
+  
+  .navo{
+    justify-content: left;
+    display: inline;
+  }
+  
+  .flex-auto{
+    flex: auto;
+    color: white;
+  }
+  li, a, button {
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+  }
+  
+  .contact{
+    padding: 9px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 15px;
+  
+  }
+  .contact:hover{
+    background-color: orange;
+    color: white;
+  
+  }
+  .line{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 3px;
+    background-color: orange;
+    transition: width .3;
+    margin-left: 320px;
+  }
+  
